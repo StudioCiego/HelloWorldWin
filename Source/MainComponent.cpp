@@ -16,9 +16,9 @@ void MainComponent::paint (juce::Graphics& g)
     // (Our component is opaque, so we must completely fill the background with a solid colour)
     g.fillAll (getLookAndFeel().findColour (juce::ResizableWindow::backgroundColourId));
 
-    g.setFont (juce::Font (50.0f));
-    g.setColour (juce::Colours::white);
-    g.drawText ("Hello World! I am learning a lot", getLocalBounds(), juce::Justification::centred, true);
+    g.setFont (juce::Font (44.0f));
+    g.setColour (juce::Colours::red);
+    g.drawText ("Hello new pff C++ Student", getLocalBounds(), juce::Justification::centred, true);
 }
 
 void MainComponent::resized()
